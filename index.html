@@ -5,9 +5,6 @@
        <meta charset="utf-8">
     </head>
     <body>
-       <h3>
-          환영합니다! 20220387 최다균의 홈페이지입니다!
-       </h3>
 	   <!DOCTYPE html>
 <html>
 <head>
@@ -32,10 +29,31 @@ table, tr, th, td {
 	border-collapse: collapse;
 	padding: 8px;
 }
+            a :link {color: blue; text-decoration: none;}
+            a :visited {color: blue; text-decoration: none;}
+            a :hover {color: red; text-decoration: none;}
 </style>
+
+<script>
+	function subblue() {
+		e = document.getElementById('test')
+		e.style.color = 'blue';
+	}
+	function subred() {
+		e = document.getElementById('test')
+		e.style.color = 'pink';
+	}
+</script>
+
 </head>
 <body>
+	<h3 id="test">환영합니다! 20220387 최다균의 홈페이지입니다!</h3>
+        <button onclick="subblue();" type="button">파란색</button>
+        <button onclick="subred();" type="button">핑크색</button>
+
 <h3> 2023년도 1학기 시간표{최다균}</h3>
+<img onmouseout="this.style.width='100px' "onmouseover="this.style.width='200px' "src="네코.jpg" width="100px">
+        <br><br>
 <table>
 
 	<tr>
