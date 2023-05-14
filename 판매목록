@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+* {padding: 0;
+   margin: 0;}
+
+   img, .name, .price, .menu {padding: 10px; 
+    margin: 5px;
+    float: none;}
+
+    h3 {clear: both;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px black;
+    text-shadow: 2px 2px 10px blue;
+    font-size: x-large;}
+
+.title {clear: both;
+    height: 300px;
+    margin: 10px;
+    border-bottom: solid 1px black}
+
+
+.image {clear: both;
+    float: left;
+    padding: 0px;}
+
+.name {float: left;
+    width: 100px;
+    margin: 0px 100px 0px 0px;
+    font-weight: bold;
+}
+.price {float: left;
+    width: 150px;
+    color: red;
+    font-weight: bold;
+    list-style-type: none;}
+
+.menu {float: left;
+    width: 100px;
+    font-weight: bold;}
+
+</style>
+</head>
+<body>
+<h3> 향수 목록</h3>
+<div class="title">
+    <div class="image"><a href="index.html"><img src='조말론.jpg' width="250" height="250"></a></div>
+    <div class="name">조말론 앰버 앤 라벤더 코롱</div>
+    <ul class="price">
+      <li>120,780</li>
+    </ul>
+    <div class="menu"><a href="index.html">조말론</a></div>
+</div>
+
+<div class="title">
+    <div class="image"><a href="index.html"><img src="구찌.png" width="250" height="250"></a></div>
+    <div class="name">온스 오 드 퍼퓸 </div>
+    <ul class="price">
+      <li>788,000</li>
+    </ul>
+    <div class="menu"><a href="profile.html">구찌</a></div>
+</div>
+
+<div class="title">
+    <div class="image"><a href="profile.html"><img src="딥디크.jpg" width="250" height="250"></a></div>
+    <div class="name">온스 오 드 뚜왈렛 </div>
+    <ul class="price">
+      <li>333,800</li>
+    </ul>
+    <div class="menu"><a href="profile.html">딥디크</a></div>
+</div>
+
+</body>
+</html>  
