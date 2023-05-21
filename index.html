@@ -1,141 +1,32 @@
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
 <head>
-<meta charset='utf-8'>
 <style>
-body{background-color: mistyrose;}
-h3{text-shadow:2px 2px 5px pink;}
+*{padding:0; margin:0;}
+header,nav,section,aside,footer{border:solid 1px pink;}
 
-table{border-collapse:collapse;}
-table, tr, th, td {
-	border: solid 2px pink;
-	border-collapse: collapse;
-	padding: 8px;
-}
-            a :link {color: blue; text-decoration: none;}
-            a :visited {color: blue; text-decoration: none;}
-            a :hover {color: red; text-decoration: none;}
 
-#pink{text-shadow:2px 2px 5px pink;
-font-weight:bold;}
-#day1{background-color:powderblue;}
-#day2{background-color:yellow;}
-#day3{background-color:chartreuse;}
+header{width: 1000px; height:100px; margin-top:10px;}
+nav{width: 1000px; height:80px; margin-top:10px;}
+section{width: 674px; height:240px; margin-top:10px; margin-top:20px;float: left;}
+aside{width: 290px; height:240px; margin-top:10px; margin-top:10px;float: left;}
+footer{width: 1000px; height:130px; margin-top:10px;}
+
+.clear{clear: both;}
+#logo,#top{border:solid 1px blue;}
+#logo{float: left;margin-top:5px;}
+#top{float: right; margin-top:30px; margin-right:20px;}
+li{float: left;
+list-style-type:none;}
+
+#ddress{float: left;margin-top:30px; margin-left:50px;}
+#customer{float: left;margin-top:20px; margin-left:180px;}
 </style>
-
-<script>
-	function subblue() {
-		e = document.getElementById('test')
-		e.style.color = 'blue';
-	}
-	function subred() {
-		e = document.getElementById('test')
-		e.style.color = 'pink';
-	}
-</script>
-
 </head>
-<body>
-	
-	<h3 id="test">환영합니다! 20220387 최다균의 홈페이지입니다!</h3>
-        <button onclick="subblue();" type="button">파란색</button>
-        <button onclick="subred();" type="button">핑크색</button>
 
-<h3 id="pink">2023년도 1학기 시간표{최다균}</h3>
-<a href="profile.html"><img onmouseout="this.style.width='100px' "onmouseover="this.style.width='200px' "src="selfie.png" width="100px"></a>
-        <br><br>
-<table>
-
-	<tr>
-		<th>시간</th><th>월</th> <th>화</th ><th>수</th> <th>목</th> <th>금</th>
-	</tr>
-	
-	<tr>
-     <th>9:30~10:30</th>
-	 <th></th>
-	 <th></th>
-	 <th></th>
-	 <th></th>
-	 <th></th>
-	</tr>
-
-	<tr>
-		<th>10:30~11:30</th>
-		<th rowspan="2"> 초급생활<br>독일어</th>
-		<th id="day1">과동아리</th>
-		<th id="day3">중앙동아리</th>
-		<th>디지털콘텐츠<br>비지니스개론(창업)</th>
-		<th rowspan="2"> 웹프로그래밍</th>
-	</tr>
-
-	<tr>
-		<th>11:30~12:30</th>
-		<th rowspan="2">디지털콘텐츠<br>비지니스개론(창업)</th>
-		<th rowspan="2"> 경영정보시스템</th>
-		<th rowspan="2">대학영어회화2</th>
-		
-	</tr>
-
-	<tr>
-		<th>12:30~1:30</th>
-		<th></th>
-	</tr>
- 
-	<tr>
-		<th>1:30~2:30</th>
-		<th>경영정보시스템</th>
-		<th></th>
-		<th></th>
-		<th></th>
-		<th></th>
-
-	</tr>
-	
-	<tr>
-		<th>2:30~3:30</th>
-		<th></th>
-		<th rowspan="2"> 한국고전시가의<br>산책</th>
-        <th>채플</th>
-		<th></th>
-	</tr>
-
-	<tr>
-		<th>3:30~4:30</th>
-		<th></th>
-        <th rowspan="2">리더쉽</th>
-		<th></th>
-	</tr>
-
-	<tr>
-		<th>4:30~5:30</th>
-		<th></th>
-		<th></th>
-		<th></th>
-		<th rowspan="2"><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=1&acr=2&acq=%ED%95%80%EA%B3%BC&qdt=0&ie=utf8&query=%ED%95%80%EA%B3%BC+%EC%A0%9C%EC%9D%B4%ED%81%AC%EC%9D%98+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%ED%83%80%EC%9E%84"><img src="pin.png" width="120 height" height="120"></a></th>
-	</tr>
-
-	<tr>
-        <th>6:00~8:00</th>
-        <th></th>
-        <th id="day2">경영대 정기회의</th>
-        <th></th>
-        <th></th>
-        
-	</tr>
-
-</table>
-
-<a href="form_test.html"><h3>회원가입</h3></a>
-<a href="css_ex.html"><h3>루바토 펜션 안내</h3></a>
-<a href="tag-selector_.html"><h3>호서 국제 페스티벌</h3></a>
-<a href="ex_bord.html"><h3>야간 개장 안내</h3></a>
-<a href="ex1_color.html"><h3>세일 안내장</h3></a>
-<a href="월간일정표.html"><h3>월간 일정표</h3></a>
-<a href="shop.html"><h3>향수 판매 상품</h3></a>
-
-
-
-
-    </body>
-</html>
-
+<header>
+    <div id="top">
+        <img src="="
+    </div>
+</header>
